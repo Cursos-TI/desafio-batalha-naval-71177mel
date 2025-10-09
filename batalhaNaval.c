@@ -123,7 +123,7 @@ int main() {
     criarCruz(cruz);
     criarOctaedro(octa);
 
-    // ---------- Aplica habilidades ao tabuleiro ----------
+    // ---------- "Aplica habilidades ao tabuleiro" ----------
     aplicarHabilidade(tabuleiro, cone, 4, 4);  // Cone centrado em (4,4)
     aplicarHabilidade(tabuleiro, cruz, 7, 7);  // Cruz centrada em (7,7)
     aplicarHabilidade(tabuleiro, octa, 2, 7);  // Octaedro centrado em (2,7)
