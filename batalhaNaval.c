@@ -108,7 +108,7 @@ int main() {
     int tabuleiro[TAM][TAM];
     inicializarTabuleiro(tabuleiro);
 
-    // ---------- Posiciona alguns navios ----------
+    // ---------- Posiciona alguns navios --------------
     int navio1Lin[] = {2,2,2};
     int navio1Col[] = {3,4,5};
     posicionarNavio(tabuleiro, navio1Lin, navio1Col, NAV_SIZE);
